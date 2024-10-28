@@ -1,0 +1,87 @@
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    width: 80px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .friends-list, .chat-box {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .friends-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friends-list li {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .chat-box .messages {
+    overflow-y: auto;
+    flex: 1;
+  }
+  
+  .chat-box input {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .friends-list {
+    width: 250px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .friend-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-box {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .messages {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .my-message {
+    text-align: right;
+  }
+  
+  .friend-message {
+    text-align: left;
+  }
+  
+  
